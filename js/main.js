@@ -6,19 +6,30 @@ howdy();
 
 var string = 7;
 
-var numba = function numba() {
+var numba = function (string) {
 	if (string < 7) {
-		console.log("What a short little word!")
+		console.log("What a short little word!");
 	}
 
 	else if (string > 7) {
-		console.log("I'm sorry but that's too many to count.")
+		console.log("I'm sorry but that's too many to count.");
 	}
 
 	else if (string == 7) {
-		console.log("7, what a perfect choice!")
+		console.log("7, what a perfect choice!");
 	}
 
 }
 
 numba(7, "seventy", "university");
+
+
+function inception(callback, value) {
+	callback(value);
+}
+
+function callback() {
+	console.log("Bridesmaids is a fantastic movie.")
+}
+
+inception(callback);
