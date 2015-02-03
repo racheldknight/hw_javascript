@@ -29,8 +29,8 @@ function inception(callback, value) {
 	callback(value);
 }
 
-function callback() {
-	console.log()
+function callback( textToLog ) {
+	console.log( textToLog )
 }
 
 inception( callback, "Bridesmaids is a fantastic movie." );
