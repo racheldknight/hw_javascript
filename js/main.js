@@ -20,7 +20,9 @@ var numba = function (string) {
 
 }
 
-numba(7, "seventy", "university");
+numba( "7" );
+numba( "seventy" );
+numba( "university" );
 
 
 function inception(callback, value) {
