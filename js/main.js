@@ -1,2 +1,2 @@
-var iceCream = ["mint", "vanilla", "chocolate"]
+var iceCream = ["mint", "vanilla", "chocolate"];
 iceCream.push("strawberry");
