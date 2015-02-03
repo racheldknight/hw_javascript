@@ -30,7 +30,7 @@ function inception(callback, value) {
 }
 
 function callback() {
-	console.log("Bridesmaids is a fantastic movie.")
+	console.log()
 }
 
-inception(callback);
+inception( callback, "Bridesmaids is a fantastic movie." );
