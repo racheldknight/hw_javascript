@@ -4,32 +4,33 @@ function howdy() {
 
 howdy();
 
-var string = 7;
 
 var numba = function (string) {
-	if (string < 7) {
+	if (string.length < 7) {
 		console.log("What a short little word!");
 	}
 
-	else if (string > 7) {
+	else if (string.length > 7) {
 		console.log("I'm sorry but that's too many to count.");
 	}
 
-	else if (string == 7) {
+	else if (string.length == 7) {
 		console.log("7, what a perfect choice!");
 	}
 
 }
 
-numba(7, "seventy", "university");
+numba( "7" );
+numba( "seventy" );
+numba( "university" );
 
 
 function inception(callback, value) {
 	callback(value);
 }
 
-function callback() {
-	console.log("Bridesmaids is a fantastic movie.")
+function callback( textToLog ) {
+	console.log( textToLog )
 }
 
-inception(callback);
+inception( callback, "Bridesmaids is a fantastic movie." );
